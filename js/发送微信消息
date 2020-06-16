@@ -1,0 +1,5 @@
+        var name="王立方";
+        var appElement = document.querySelector('[ng-controller=chatSenderController]');
+        var $scope = angular.element(appElement).scope();
+        $scope.editAreaCtn = "这个是信息";
+        $scope.sendTextMessage();
